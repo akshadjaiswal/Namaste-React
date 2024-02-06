@@ -9,8 +9,14 @@
 
 <body>
     <div id="root">
-        <h1>Hello World!</h1>
+
     </div>
+    <script>
+        const heading = document.createElement("h1");
+        heading.innerHTML = "Hello World from Javascript";
+        const root = document.getElementById("root");
+        root.appendChild(heading);
+    </script>
 </body>
 
 </html>
