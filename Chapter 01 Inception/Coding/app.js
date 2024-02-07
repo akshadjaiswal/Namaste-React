@@ -1,11 +1,22 @@
 //Creating h1 element and what we want to print in tha h1 element
-const heading = React.createElement(
-  "h1",
-  { id: "heading", xyz:"abc" },
-  "Hello world from React!"
+
+const parent = React.createElement(
+  "div",
+  { id: "parent" },
+  React.createElement(
+    "div",
+    { id: "child" },
+    React.createElement("h1", {}, "I am H2 tag")
+  )
 );
-console.log(heading)
+
+// const heading = React.createElement(
+//   "h1",
+//   { id: "heading", xyz: "abc" },
+//   "Hello world from React!"
+// );
+console.log(parent);
 //creating root
 const root = ReactDOM.createRoot(document.getElementById("root"));
 //rendering heading in the root
-root.render(heading);
+root.render(parent);
