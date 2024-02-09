@@ -1,3 +1,9 @@
+// Manipulate the HTML DOM using Javscript
+// const heading = document.createElement("h1");
+// heading.innerHTML = "Namaste Everyone";
+// const root = document.getElementById("root");
+// root.appendChild(heading);
+
 //Creating h1 element and what we want to print in tha h1 element (nested)
 
 //Reactjs Core parts
