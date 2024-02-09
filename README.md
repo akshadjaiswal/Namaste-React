@@ -4,8 +4,8 @@
 # 🎨 Contents
 This repository contains a `Collection of Assignments & Class Notes`, which help you understand the concepts of React.js.
 
-## 📚 [_Chapter 01 - Inception_](Chapter 01 Inception) 
+## 📚 [_Chapter 01 - Inception_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2001%20Inception)
 
-- 📖 [_Theory](Chapter 01 Inception/Theory)
-- 💻 [_Coding](Chapter 01 Inception/Coding)
+- 💻 [_Coding]([Chapter 01 Inception/Coding](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2001%20Inception/Coding))
+- 📖 [_Theory](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2001%20Inception/Theory)
 
