@@ -1,4 +1,4 @@
-//Creating h1 element and what we want to print in tha h1 element
+//Creating h1 element and what we want to print in tha h1 element (nested)
 
 const parent = React.createElement(
   "div",
@@ -9,6 +9,7 @@ const parent = React.createElement(
   ])
 );
 
+// Single element (not nested)
 // const heading = React.createElement(
 //   "h1",
 //   { id: "heading", xyz: "abc" },
