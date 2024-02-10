@@ -33,7 +33,6 @@ The purpose of crossorigin attribute is used to share the resources from one dom
 A: `React` is a JavaScript library for building User Interfaces whereas `ReactDOM` is also JavaScript library that allows `React to interact with the DOM`.
 The react package contains `React.createElement()`, `React.Component`, `React.Children`, and other helpers related to elements and component classes. You can think of these as the isomorphic or universal helpers that you need to build components. The react-dom package contains `ReactDOM.render()`, and in react-dom/server we have server-side rendering support with `ReactDOMServer.renderToString()` and `ReactDOMServer.renderToStaticMarkup()`.
 
-
 ## Q: What is difference between `react.development.js` and `react.production.js` files via `CDN`?
 A: `Development` is the stage of an application before it's made public while `production` is the term used for the same application when it's made `public`.
 `Development build` is several times (maybe 3-5x) `slower` than the `production build`.

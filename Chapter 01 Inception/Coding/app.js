@@ -25,7 +25,8 @@ const parent = React.createElement("div", { id: "parent" }, [
 //   "Hello world from React!"
 // );
 
-console.log(parent);//object
+//returning what inside parent 
+console.log(parent); //object
 
 //creating root
 const root = ReactDOM.createRoot(document.getElementById("root"));
