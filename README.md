@@ -6,6 +6,6 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 
 ## 📚 [_Chapter 01 - Inception_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2001%20Inception)
 
-- 💻 [_Coding](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2001%20Inception/Coding)
-- 📖 [_Theory](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2001%20Inception/Theory)
+- 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2001%20Inception/Coding)
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2001%20Inception/Theory)
 
