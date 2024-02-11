@@ -1,0 +1,16 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "Namaste React cousre coding and practice repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/akshadjaiswal/Namaste-React)"
+  },
+  "keywords": [ ],
+  "author": "Akshad Jaiswal",
+  "license": "ISC"
+}
