@@ -7,6 +7,8 @@
 //Creating h1 element and what we want to print in tha h1 element (nested)
 
 //Reactjs Core parts
+import React from "react";
+import  ReactDOM  from "react-dom";
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child" }, [
     React.createElement("h1", {}, "I am H1 tag"),
