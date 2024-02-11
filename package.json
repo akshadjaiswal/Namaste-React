@@ -10,7 +10,10 @@
     "type": "git",
     "url": "(https://github.com/akshadjaiswal/Namaste-React)"
   },
-  "keywords": [ ],
+  "keywords": [],
   "author": "Akshad Jaiswal",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
 }
