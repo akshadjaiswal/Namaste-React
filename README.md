@@ -9,3 +9,8 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2001%20Inception/Coding)
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2001%20Inception/Theory)
 
+## 📚 [_Chapter 01 - Igniting our app_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2002%20igniting%20our%20app)
+
+- 💻 [_Coding_]()
+- 📖 [_Theory_]()
+
