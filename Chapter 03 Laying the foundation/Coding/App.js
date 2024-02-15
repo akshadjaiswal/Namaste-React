@@ -10,7 +10,7 @@ const heading = React.createElement(
 );
 
 //JSX- Where we can merge html and js together // JSX is HTML like sysntax
-const jsxheading = <h1>Welcome to react learning</h1>;
+const jsxheading = <h1 id="heading">Welcome to react learning</h1>;
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(heading);
+root.render(jsxheading);
