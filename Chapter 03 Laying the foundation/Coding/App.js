@@ -8,7 +8,9 @@ const heading = React.createElement(
   { id: "root" },
   "Akshad is learning React js"
 );
-console.log(heading);
+
+//JSX- Where we can merge html and js together // JSX is HTML like sysntax
+const jsxheading = <h1>Welcome to react learning</h1>;
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);
