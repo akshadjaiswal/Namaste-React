@@ -16,9 +16,9 @@ const heading = React.createElement(
 //Slight difference in between JSX and HTML
 //For class use (className)
 //for tabindex use (tabIndex)
-const Title = ()=>(
-  <h1 id="heading" className="head" tabIndex='5'>
-    Welcome to JSX Learning🧑🏻‍💻 
+const Title = () => (
+  <h1 id="heading" className="head" tabIndex="5">
+    Welcome to JSX Learning🧑🏻‍💻
   </h1>
 );
 
@@ -30,8 +30,12 @@ const Title = ()=>(
 const HeadingComponent = () => (
   <div id="container">
     <Title />
-    <h1 className="heading">Hello Akshad from Functional Component</h1>;
+    <h1 className="heading">Hello Akshad from Functional Component</h1>
+    <MainComponent/>
   </div>
+);
+const MainComponent = () => (
+  <h2 className="heading">This is the main componenet </h2>
 );
 
 //Same as above syntax
