@@ -16,23 +16,26 @@ const heading = React.createElement(
 //Slight difference in between JSX and HTML
 //For class use (className)
 //for tabindex use (tabIndex)
-const jsxheading = (
-  <h1 id="heading" className="head">
-    Welcome to react learning
-  </h1>
-);
+// const jsxheading = (
+//   <h1 id="heading" className="head">
+//     Welcome to react learning
+//   </h1>
+// );
 
 //React Componenet(2 types)
 //1) Class Based Component - OLD way
 //2) Functional Component - NEW way
 
 //React Functional Component
-const HeadingComponent = () => {
-  return <h1>Hello Akshad from Functional Component</h1>;
-};
+const HeadingComponent = () => (
+  <div id="container">
+    <h1 className="heading">Hello Akshad from Functional Component</h1>;
+  </div>
+);
 
 //Same as above syntax
-const HeadingComponent2 = () => <h1>Hello Akshad from Functional Component</h1>;
+//const HeadingComponent2 = () => <h1>Hello Akshad from Functional Component</h1>;
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(jsxheading);
+// root.render(jsxheading);
+root.render(<HeadingComponent />);
