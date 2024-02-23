@@ -22,5 +22,17 @@ const jsxheading = (
   </h1>
 );
 
+//React Componenet(2 types)
+//1) Class Based Component - OLD way
+//2) Functional Component - NEW way
+
+//React Functional Component
+const HeadingComponent = () => {
+  return <h1>Hello Akshad from Functional Component</h1>;
+};
+
+//Same as above syntax
+const HeadingComponent2 = () => <h1>Hello Akshad from Functional Component</h1>;
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(jsxheading);
