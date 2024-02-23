@@ -16,11 +16,11 @@ const heading = React.createElement(
 //Slight difference in between JSX and HTML
 //For class use (className)
 //for tabindex use (tabIndex)
-// const jsxheading = (
-//   <h1 id="heading" className="head">
-//     Welcome to react learning
-//   </h1>
-// );
+const Title = ()=>(
+  <h1 id="heading" className="head" tabIndex='5'>
+    Welcome to JSX Learning🧑🏻‍💻 
+  </h1>
+);
 
 //React Componenet(2 types)
 //1) Class Based Component - OLD way
@@ -29,6 +29,7 @@ const heading = React.createElement(
 //React Functional Component
 const HeadingComponent = () => (
   <div id="container">
+    <Title />
     <h1 className="heading">Hello Akshad from Functional Component</h1>;
   </div>
 );
