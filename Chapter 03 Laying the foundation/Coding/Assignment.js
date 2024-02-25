@@ -9,5 +9,15 @@ const heading = React.createElement(
   React.createElement("h2", { className: "title" }, "I am H3 tag")
 );
 
+// Q2: Create the same element using JSX
+const header = (
+  <div className="title">
+    <h1 className="title">I am H1 tag</h1>
+    <h2 className="title">I am H2 tag</h2>
+    <h3 className="title">I am H3 tag</h3>
+  </div>
+);
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(heading);
+// root.render(heading);
+root.render(header);
