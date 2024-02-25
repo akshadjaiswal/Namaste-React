@@ -8,17 +8,17 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2001%20Inception/Coding)
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2001%20Inception/Theory)
-- 📖 [_Assignment_]()
+- 📖 [_Assignment_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2001%20Inception/Theory)
 
 ## 📚 [_Chapter 02 - Igniting our app_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2002%20igniting%20our%20app)
 
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2002%20igniting%20our%20app/Coding)
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2002%20igniting%20our%20app/Theory)
-- 📖 [_Assignment_]()
+- 📖 [_Assignment_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2002%20igniting%20our%20app/Theory)
  
 ## 📚 [_Chapter 03 - Laying the foundation_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2003%20Laying%20the%20foundation)
 
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2003%20Laying%20the%20foundation/Coding)
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2003%20Laying%20the%20foundation/Theory)
-- 📖 [_Assignment_]()
+- 📖 [_Assignment_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2003%20Laying%20the%20foundation/Theory)
 
