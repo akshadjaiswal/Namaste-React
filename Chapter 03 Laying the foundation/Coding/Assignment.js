@@ -18,7 +18,7 @@ const header = (
   </div>
 );
 
-//3: Create a functional component of the same with JSX
+//Q3: Create a functional component of the same with JSX
 const Header = () => (
   <div className="title">
     <h1 className="title">I am H1 tag</h1>
@@ -26,7 +26,23 @@ const Header = () => (
     <h3 className="title">I am H3 tag</h3>
   </div>
 );
+
+//Q4: Pass attribute into the tag in JSX
+const Header2 = () => (
+  <div className="title">
+    <h1 style={{ color: "aqua" }} className="title">
+      I am H1 tag
+    </h1>
+    <h2 style={{ color: "red" }} className="title">
+      I am H2 tag
+    </h2>
+    <h3 style={{ color: "orange" }} className="title">
+      I am H3 tag
+    </h3>
+  </div>
+);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(heading);
 // root.render(header);
-root.render(<Header />);
+// root.render(<Header />);
+root.render(<Header2 />);
