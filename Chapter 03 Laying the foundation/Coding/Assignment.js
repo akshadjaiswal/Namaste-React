@@ -41,8 +41,29 @@ const Header2 = () => (
     </h3>
   </div>
 );
+
+//Q5 Add component inside another component
+const Header3=()=>(
+    <h1>Another component</h1>
+);
+
+const Header4 = () => (
+    <div className="title">
+        {<Header3/>}
+      <h1 style={{ color: "aqua" }} className="title">
+        I am H1 tag
+      </h1>
+      <h2 style={{ color: "red" }} className="title">
+        I am H2 tag
+      </h2>
+      <h3 style={{ color: "orange" }} className="title">
+        I am H3 tag
+      </h3>
+    </div>
+  );
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(heading);
 // root.render(header);
 // root.render(<Header />);
-root.render(<Header2 />);
+// root.render(<Header2 />);
+root.render(<Header4 />);
