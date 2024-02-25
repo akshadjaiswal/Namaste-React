@@ -43,27 +43,56 @@ const Header2 = () => (
 );
 
 //Q5 Add component inside another component
-const Header3=()=>(
-    <h1>Another component</h1>
-);
+const Header3 = () => <h1>Another component</h1>;
 
 const Header4 = () => (
-    <div className="title">
-        {<Header3/>}
-      <h1 style={{ color: "aqua" }} className="title">
-        I am H1 tag
+  <div className="title">
+    {<Header3 />}
+    <h1 style={{ color: "aqua" }} className="title">
+      I am H1 tag
+    </h1>
+    <h2 style={{ color: "red" }} className="title">
+      I am H2 tag
+    </h2>
+    <h3 style={{ color: "orange" }} className="title">
+      I am H3 tag
+    </h3>
+  </div>
+);
+
+// `{TitleComponent}` vs `{<TitleComponent/>}` vs `{<TitleComponent></TitleComponent>}` in JSX.
+
+const element = <h1>This is React Element</h1>; // This is React element or {TitleComponent}
+
+const TitleElement = () => {
+  return <h2 style={{ color: "red" }}>This Title Element</h2>;
+}; // This is Title Component
+
+const Header5 = () => {
+  return (
+    <div className="Title" key="title">
+      {/* This is {TitleComponent} */}
+      {element}
+      <h1 style={{ color: "blue" }} key="h1">
+        This is h1 tag
       </h1>
-      <h2 style={{ color: "red" }} className="title">
-        I am H2 tag
+      {/* This is {<TitleComponent/>} */}
+      <TitleElement />
+      <h2 style={{ color: "palevioletred" }} key="h2">
+        This is h2 tag
       </h2>
-      <h3 style={{ color: "orange" }} className="title">
-        I am H3 tag
+      {/* This is {<TitleComponent></TitleComponent>}*/}
+      <TitleElement></TitleElement>
+      <h3 style={{ color: "green" }} key="h3">
+        This is h3 tag
       </h3>
     </div>
   );
+};
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(heading);
 // root.render(header);
 // root.render(<Header />);
 // root.render(<Header2 />);
-root.render(<Header4 />);
+// root.render(<Header4 />);
+root.render(<Header5 />);
