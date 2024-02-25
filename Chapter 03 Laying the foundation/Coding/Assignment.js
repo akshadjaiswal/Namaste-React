@@ -18,6 +18,15 @@ const header = (
   </div>
 );
 
+//3: Create a functional component of the same with JSX
+const Header = () => (
+  <div className="title">
+    <h1 className="title">I am H1 tag</h1>
+    <h2 className="title">I am H2 tag</h2>
+    <h3 className="title">I am H3 tag</h3>
+  </div>
+);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(heading);
-root.render(header);
+// root.render(header);
+root.render(<Header />);
