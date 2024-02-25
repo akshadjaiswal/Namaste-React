@@ -28,7 +28,7 @@ const elem = <span>React Element </span>;
 //React element title
 const title = (
   <h1 id="heading" className="head" tabIndex="5">
-    {elem} <br></br>
+    {/* {elem} <br></br> */}
     Welcome to JSX Learning code 🧑🏻‍💻
   </h1>
 );
@@ -44,7 +44,9 @@ const HeadingComponent = () => (
   <div id="container">
     {999 + 999}
     {title}
+    {Title()}
     <Title />
+    <Title></Title>
     <h1 className="heading">Hello Akshad from Functional Component</h1>
     <MainComponent />
     <h2>{number}</h2>
