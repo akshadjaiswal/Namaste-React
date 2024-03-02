@@ -22,7 +22,7 @@ const Header = () => {
       <div className="logo-container">
         <img
           className="logo"
-          src="https://icon-library.com/images/order-food-online-icon/order-food-online-icon-13.jpg"
+          src="https://i.pinimg.com/originals/34/0c/6a/340c6add7519212185a08d4205eb1965.png"
         />
       </div>
       <div className="nav-items">
