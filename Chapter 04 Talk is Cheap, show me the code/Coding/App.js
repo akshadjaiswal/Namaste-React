@@ -24,6 +24,7 @@ const Header = () => {
           className="logo"
           src="https://i.pinimg.com/originals/34/0c/6a/340c6add7519212185a08d4205eb1965.png"
         />
+        <h3>FoodieMint</h3>
       </div>
       <div className="nav-items">
         <ul>
@@ -37,9 +38,25 @@ const Header = () => {
   );
 };
 
+const RestaurantCard=()=>{
+  return(
+    <div></div>
+  )
+}
+const Body=()=>{
+  return(
+    <div className="body">
+      <div className="Search">Search</div>
+      <div className="res-container">
+        //RestaurantCard
+      </div>
+    </div>
+  )
+}
 const AppLayout = () => {
   return <div className="app">
     <Header/>
+    <Body/>
   </div>;
 };
 const root = ReactDOM.createRoot(document.getElementById("root"));
