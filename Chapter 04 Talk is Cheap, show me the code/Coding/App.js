@@ -40,13 +40,17 @@ const Header = () => {
   );
 };
 
-const styleCard= {
-  backgroundColor:"antiquewhite"
-}
+const styleCard = {
+  backgroundColor: "antiquewhite",
+};
 const RestaurantCard = () => {
   return (
     <div className="res-card" style={styleCard}>
-      <h3>Aaradhana Foods</h3>
+      <img className="res-logo"
+        alt="res-logo"
+        src="https://i1.wp.com/www.desifiesta.com/wp-content/uploads/2014/04/Gujaratithali-3.jpg?fit=1596%2C1444&ssl=1"
+        />
+        <h3>Aaradhana Foods</h3>
     </div>
   );
 };
