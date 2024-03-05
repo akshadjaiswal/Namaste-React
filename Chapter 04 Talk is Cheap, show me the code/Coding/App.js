@@ -43,14 +43,19 @@ const Header = () => {
 const styleCard = {
   backgroundColor: "antiquewhite",
 };
-const RestaurantCard = () => {
+const RestaurantCard = (props) => {
+  console.log(props);
   return (
     <div className="res-card" style={styleCard}>
-      <img className="res-logo"
+      <img
+        className="res-logo"
         alt="res-logo"
-        src="https://i1.wp.com/www.desifiesta.com/wp-content/uploads/2014/04/Gujaratithali-3.jpg?fit=1596%2C1444&ssl=1"
-        />
-        <h3>Aaradhana Foods</h3>
+        src="https://content.jdmagicbox.com/comp/def_content/kathiyawadi-restaurants/1-kathiyawadi-restaurants-1-ki1aq.jpg"
+      />
+      <h3>{props.resname}</h3>
+      <h4>{props.cuisine}</h4>
+      <h4>{props.ratings}</h4>
+      <h4>34 mins</h4>
     </div>
   );
 };
@@ -59,7 +64,16 @@ const Body = () => {
     <div className="body">
       <div className="search">Search</div>
       <div className="res-container">
-        <RestaurantCard />
+        <RestaurantCard
+          resname="Aaradhana Foods"
+          cuisine="Kathiwadi Thali"
+          ratings="4.4 Stars"
+        />
+        <RestaurantCard
+          resname="KFC"
+          cuisine="Chicken Burgers"
+          ratings="4.6 Stars"
+        />
       </div>
     </div>
   );
