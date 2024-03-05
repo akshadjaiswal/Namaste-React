@@ -14,6 +14,7 @@
 
 .nav-items {
     padding: 0px 20px;
+    
 }
 
 .nav-items>ul {
@@ -26,4 +27,13 @@
 .nav-items>ul>li {
     padding: 10px;
     margin: 10px;
+}
+
+.res-card{
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+}
+.search{
+    padding: 10px;
 }
