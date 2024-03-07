@@ -1890,6 +1890,7 @@ const resObj=
 //     subtype: "basic",
 //   },
 // ];
+
 const Body = () => {
   return (
     <div className="body">
@@ -1901,6 +1902,7 @@ const Body = () => {
     </div>
   );
 };
+
 const AppLayout = () => {
   return (
     <div className="app">
@@ -1909,5 +1911,6 @@ const AppLayout = () => {
     </div>
   );
 };
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<AppLayout />);
