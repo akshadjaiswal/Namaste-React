@@ -27,20 +27,23 @@
 .nav-items>ul>li {
     padding: 10px;
     margin: 10px;
+    cursor: pointer;
 }
 
 .res-card {
     margin: 7px;
     width: 190px;
-    height: 310px;
+
     padding: 5px;
 }
-.res-card:hover{
+
+.res-card:hover {
     border: 1px solid black;
     cursor: pointer;
 }
-.res-container{
-    
+
+.res-container {
+
     display: flex;
     flex-wrap: wrap;
 }
