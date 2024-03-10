@@ -1,6 +1,9 @@
 # Namaste React 🙏
 
 ### _[Namaste React Live Course](https://learn.namastedev.com/courses/namaste-react-live) from Zero to Hero 🚀 by [Akshay Saini](https://www.linkedin.com/in/akshaymarch7/) Founder of [NamasteDev](https://courses.namastedev.com/learn/Namaste-React). This repository for Assignment & Class Notes taken during this First Live course._
+
+## [Created a FoodFire App from scratch using Functional Component](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2004%20Talk%20is%20Cheap%2C%20show%20me%20the%20code/Coding)  
+
 # 🎨 Contents
 This repository contains a `Collection of Assignments & Class Notes`, which help you understand the concepts of React.js.
 
@@ -26,4 +29,4 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2004%20Talk%20is%20Cheap%2C%20show%20me%20the%20code/Coding)
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2004%20Talk%20is%20Cheap%2C%20show%20me%20the%20code/Theory)
-- 📖 [_Assignment_]()
+- 📖 [_Assignment_](https://github.com/akshadjaiswal/Namaste-React/blob/main/Chapter%2004%20Talk%20is%20Cheap%2C%20show%20me%20the%20code/Theory/Assignment.md)
