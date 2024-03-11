@@ -17,4 +17,4 @@
             - Use `Array.map` to render all the restaurants
 
 
-## Created a FoodFire 🍥🧑🏻‍💻 App from scratch using Functional Component 
+## Created a FoodieMint 🍥🧑🏻‍💻 App from scratch using Functional Component 
