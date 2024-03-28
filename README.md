@@ -25,13 +25,13 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2003%20Laying%20the%20foundation/Theory)
 - 📖 [_Assignment_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2003%20Laying%20the%20foundation/Theory)
 
-## 📚 [_Chapter 04 -Talk is Cheap, Show me the Code_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2004%20Talk%20is%20Cheap%2C%20show%20me%20the%20code)
+## 📚 [_Chapter 04 - Talk is Cheap, Show me the Code_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2004%20Talk%20is%20Cheap%2C%20show%20me%20the%20code)
 
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2004%20Talk%20is%20Cheap%2C%20show%20me%20the%20code/Coding)
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2004%20Talk%20is%20Cheap%2C%20show%20me%20the%20code/Theory)
 - 📖 [_Assignment_](https://github.com/akshadjaiswal/Namaste-React/blob/main/Chapter%2004%20Talk%20is%20Cheap%2C%20show%20me%20the%20code/Theory/Assignment.md)
 
-## 📚 [_Chapter 05 -Let's get Hooked!_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2005%20%20%20Let's%20get%20Hooked)
+## 📚 [_Chapter 05 - Let's get Hooked!_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2005%20%20%20Let's%20get%20Hooked)
 
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2005%20%20%20Let's%20get%20Hooked/Coding)
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2005%20%20%20Let's%20get%20Hooked/Theory)
