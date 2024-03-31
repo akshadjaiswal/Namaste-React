@@ -57,3 +57,8 @@
     width: 100%;
 
 }
+
+.filter{
+    padding: 10px;
+    cursor: pointer;
+}
