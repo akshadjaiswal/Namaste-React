@@ -62,3 +62,6 @@
     padding: 10px;
     cursor: pointer;
 }
+.filter-btn{
+    border: 1px solid black;
+}
