@@ -19,6 +19,5 @@
 - Use `useState` to create a variable and `bind` it to the input box.
 - Try to make your `search bar work`.
 
-
 ## References:
 - [Akshay Saini Code Link](https://bitbucket.org/namastedev/namaste-react-live/src/master/)
