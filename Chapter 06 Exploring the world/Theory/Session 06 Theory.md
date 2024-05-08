@@ -105,8 +105,6 @@ for example:
     console.log(json);
   }
 ```
-
-
 ## Q: What is the use of `const json = await data.json()`; in `getRestaurants()`?
 A: The `data` object, returned by the `await fetch()`, is a generic placeholder for multiple data formats.
 so we can extract the `JSON object` from a `fetch` response by using `await data.json()`.
