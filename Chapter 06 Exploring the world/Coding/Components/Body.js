@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 const Body = () => {
   //State variable - Super powerfull variable
-  const [listOfRestaurants, setListOfRestaurants] = useState(resList);
+  const [listOfRestaurants, setListOfRestaurants] = useState([]);
 
   useEffect(() => {
     fetchData();
@@ -16,7 +16,7 @@ const Body = () => {
     );
     const json = await data.json();
     console.log(
-      json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants
+      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
     setListOfRestaurants(
       json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
@@ -31,7 +31,7 @@ const Body = () => {
           onClick={() => {
             //filter logic
             const filteredList = listOfRestaurants.filter(
-              (res) => res.data.avgRating > 4
+              (res) => res.info.avgRating > 4
             );
             setListOfRestaurants(filteredList);
             // console.log(listOfRestaurants);
@@ -42,7 +42,7 @@ const Body = () => {
       </div>
       <div className="res-container">
         {listOfRestaurants.map((restaurant) => (
-          <RestaurantCard key={restaurant.info.id} resData={restaurant} />
+          <RestaurantCard key={restaurant?.info?.id} resData={restaurant} />
         ))}
       </div>
     </div>
