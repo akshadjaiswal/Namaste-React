@@ -38,6 +38,9 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 - 📖 [_Assignment_](https://github.com/akshadjaiswal/Namaste-React/blob/main/Chapter%2005%20%20%20Let's%20get%20Hooked/Theory/Assignment.md)
 - 
 ## 📚 [_Chapter 06 - Exploring the World_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2006%20Exploring%20the%20world)
+ 
+  - Swiggy API Issue
+  - CORS Handling 
 
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2006%20Exploring%20the%20world/Coding)
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2006%20Exploring%20the%20world/Theory)
