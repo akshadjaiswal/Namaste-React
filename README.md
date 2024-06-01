@@ -41,6 +41,7 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
  
   - Swiggy API Issue
   - CORS Handling 
+  - API destructuring 
 
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2006%20Exploring%20the%20world/Coding)
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2006%20Exploring%20the%20world/Theory)
