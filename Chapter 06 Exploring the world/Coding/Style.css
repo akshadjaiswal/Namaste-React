@@ -82,3 +82,16 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+.Shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Shimmer-card {
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+    background-color: #f0f0f0;
+}
