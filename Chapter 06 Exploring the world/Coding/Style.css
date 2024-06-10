@@ -61,10 +61,14 @@
 
 .filter {
     padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .filter-btn {
+    margin: 0px 50px;
     cursor: pointer;
+
 }
 
 .filter-btn:hover {
