@@ -1,3 +1,3 @@
 # Namaste React
-# Chapter 007 - Finding the path
+# Chapter 07 - Finding the path
 
