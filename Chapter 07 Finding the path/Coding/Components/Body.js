@@ -3,11 +3,11 @@ import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 
 const Body = () => {
+  // console.log("Componenet rerendered");
   //State variable - Super powerfull variable
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
   const [searchText, setSearchText] = useState("");
-  console.log("Componenet rerendered");
 
   useEffect(() => {
     fetchData();
@@ -24,10 +24,12 @@ const Body = () => {
       //Optional Chaining
       json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
+
     setFilteredRestaurant(
       json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
   };
+
   //Conditional Rendering
   // if (listOfRestaurants.length === 0) {
   //   return <Shimmer />;
