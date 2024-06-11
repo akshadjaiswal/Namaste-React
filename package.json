@@ -4,7 +4,7 @@
   "description": "Namaste React cousre coding and practice repository",
   "scripts": {
     "start": "parcel Index.html",
-    "build":"parcel build Index.html",
+    "build": "parcel build Index.html",
     "test": "jest"
   },
   "repository": {
@@ -20,9 +20,10 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.1"
   },
-  "browserslist":[
+  "browserslist": [
     "last 2  versions "
   ]
 }
