@@ -32,10 +32,16 @@
 }
 
 .res-card {
-    margin: 7px;
+    /* margin: 7px;
     width: 190px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 5px;
+    padding: 5px; */
+    width: 240px;
+    border-radius: 5px;
+    box-shadow: -1px 5px 10px 5px rgba(112, 112, 112, 0.2);
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
 }
 
 .res-card:hover {
