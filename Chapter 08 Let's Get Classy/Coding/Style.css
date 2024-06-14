@@ -1,0 +1,147 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.header h3 {
+    margin: -15px 0px 0px 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logo {
+    width: 200px;
+}
+
+.nav-items {
+    padding: 0px 20px;
+
+}
+
+.nav-items>ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.nav-items>ul>li {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.res-card {
+    /* margin: 7px;
+    width: 190px;
+    padding: 5px;
+     */
+     height: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 240px;
+    border-radius: 5px;
+    box-shadow: -1px 5px 10px 5px rgba(112, 112, 112, 0.2);
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+.res-card:hover {
+
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.res-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.res-card h3 {
+    text-decoration: none;
+}
+
+.search {
+    padding: 10px;
+}
+
+.res-logo {
+    width: 100%;
+    text-decoration: none;
+
+}
+
+.filter {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.filter-btn {
+    margin: 0px 50px;
+    cursor: pointer;
+
+}
+
+.filter-btn:hover {
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 22px;
+}
+
+.footer p a {
+    color: #00A0C6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Shimmer-card {
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+    background-color: #f0f0f0;
+}
+
+.login {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+
+}
+
+.About-div {
+    margin-bottom: 50%;
+}
+
+.ContactUs-div {
+    margin-bottom: 50%;
+}
+
+.Cart-div {
+    margin-bottom: 50%;
+}
