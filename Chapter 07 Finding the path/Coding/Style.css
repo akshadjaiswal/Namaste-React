@@ -40,10 +40,10 @@ a {
 .res-card {
     /* margin: 7px;
     width: 190px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 5px;
-    height: 90%; */
-
+     */
+     height: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 240px;
     border-radius: 5px;
     box-shadow: -1px 5px 10px 5px rgba(112, 112, 112, 0.2);
