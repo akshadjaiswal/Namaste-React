@@ -42,7 +42,7 @@ a {
     width: 190px;
     padding: 5px;
      */
-     height: 90%;
+    height: 90%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 240px;
     border-radius: 5px;
@@ -144,4 +144,11 @@ a {
 
 .Cart-div {
     margin-bottom: 50%;
+}
+
+.user-card {
+    padding: 10px;
+    border: 5px solid paleturquoise;
+    border-radius: 10px;
+    margin: 10px;
 }
