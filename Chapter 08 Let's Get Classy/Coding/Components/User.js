@@ -1,3 +1,4 @@
+// functional component
 const User = (props) => {
   const { name, location } = props;
   return (
