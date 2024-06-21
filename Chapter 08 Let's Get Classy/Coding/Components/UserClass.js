@@ -10,7 +10,6 @@ class UserClass extends React.Component {
         location: "default",
         bio: "xyz",
         login: "dummy",
-        avatar_url: "",
       },
     };
     // console.log(this.props.name + "Child Constructor");
@@ -24,6 +23,10 @@ class UserClass extends React.Component {
     this.setState({
       userInfo: json,
     });
+  }
+  componentDidUpdate() {}
+  componentWillUnmount() {
+    console.log("Component willUnmount");
   }
   render() {
     const { name, bio, location, login, avatar_url } = this.state.userInfo;
