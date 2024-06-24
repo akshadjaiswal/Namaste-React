@@ -49,11 +49,17 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2007%20Finding%20the%20path/Theory)
 - 📖 [_Assignment_](https://github.com/akshadjaiswal/Namaste-React/blob/main/Chapter%2007%20Finding%20the%20path/Theory/Assignment.md)
 - 
-## 📚 [_Chapter 08 Let's Get Classy - Finding the path_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2008%20Let's%20Get%20Classy)
+## 📚 [_Chapter 08 Let's Get Classy_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2008%20Let's%20Get%20Classy)
 
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2008%20Let's%20Get%20Classy/Coding)
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2008%20Let's%20Get%20Classy/Theory)
 - 📖 [_Assignment_](https://github.com/akshadjaiswal/Namaste-React/blob/main/Chapter%2008%20Let's%20Get%20Classy/Theory/Assignment.md)
+  
+## 📚 [_Chapter 09 Otpimizing Our App_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2009%20Optimizing%20Our%20App)
+
+- 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2009%20Optimizing%20Our%20App/Coding)
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2009%20Optimizing%20Our%20App/Theory)
+- 📖 [_Assignment_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2009%20Optimizing%20Our%20App/Theory/Assignment.md)
   
 ## 🤝 Contribution Guidelines
 
