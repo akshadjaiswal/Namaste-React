@@ -1,10 +1,11 @@
 # Namaste React 🙏
 
-### _[Namaste React Live Course](https://learn.namastedev.com/courses/namaste-react-live) from Zero to Hero 🚀 by [Akshay Saini](https://www.linkedin.com/in/akshaymarch7/) Founder of [NamasteDev](https://courses.namastedev.com/learn/Namaste-React).This repository for Assignment & Class Notes taken during this First Live course._
+## _[Namaste React Live Course](https://learn.namastedev.com/courses/namaste-react-live) from Zero to Hero 🚀 by [Akshay Saini](https://www.linkedin.com/in/akshaymarch7/) Founder of [NamasteDev](https://courses.namastedev.com/learn/Namaste-React).This repository for Assignment & Class Notes taken during this First Live course._
 
 ## [Created a FoodieMint🍥✌️ App from scratch using Functional Component](https://foodiemint.netlify.app/)  
 
-# 🎨 Contents
+## 🎨 Contents
+
 This repository contains a `Collection of Assignments & Class Notes`, which help you understand the concepts of React.js.
 
 ## 📚 [_Chapter 01 - Inception_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2001%20Inception)
@@ -18,7 +19,7 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2002%20igniting%20our%20app/Coding)
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2002%20igniting%20our%20app/Theory)
 - 📖 [_Assignment_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2002%20igniting%20our%20app/Theory)
- 
+
 ## 📚 [_Chapter 03 - Laying the Foundation_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2003%20Laying%20the%20foundation)
 
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2003%20Laying%20the%20foundation/Coding)
@@ -36,7 +37,7 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2005%20%20%20Let's%20get%20Hooked/Coding)
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2005%20%20%20Let's%20get%20Hooked/Theory)
 - 📖 [_Assignment_](https://github.com/akshadjaiswal/Namaste-React/blob/main/Chapter%2005%20%20%20Let's%20get%20Hooked/Theory/Assignment.md)
- 
+
 ## 📚 [_Chapter 06 - Exploring the World_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2006%20Exploring%20the%20world)
   
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2006%20Exploring%20the%20world/Coding)
@@ -48,7 +49,8 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2007%20Finding%20the%20path/Coding)
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2007%20Finding%20the%20path/Theory)
 - 📖 [_Assignment_](https://github.com/akshadjaiswal/Namaste-React/blob/main/Chapter%2007%20Finding%20the%20path/Theory/Assignment.md)
-- 
+-
+
 ## 📚 [_Chapter 08 Let's Get Classy_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2008%20Let's%20Get%20Classy)
 
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2008%20Let's%20Get%20Classy/Coding)
@@ -63,12 +65,12 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
   
 ## 🤝 Contribution Guidelines
 
-- Please create an issue with your suggestion. 
+- Please create an issue with your suggestion.
 - If you have notes of your own, and are interested in contributing to this repo, hit a PR ! I'll review it and add it immediately 🤓.
 
 ## ✨ Show your support
 
-Give a ⭐️ if this project helped you and try to contribute and share with people's 
+Give a ⭐️ if this project helped you and try to contribute and share with people's
 
 ## 🔗 Let's Connect
 
