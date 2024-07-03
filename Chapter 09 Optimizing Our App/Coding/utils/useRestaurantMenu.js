@@ -3,6 +3,7 @@ import { MENU_API_URL } from "./constants";
 
 const useRestaurantmenu = (resId) => {
   const [resInfo, setResInfo] = useState(null);
+
   useEffect(() => {
     fetchData();
   }, []);
@@ -12,7 +13,7 @@ const useRestaurantmenu = (resId) => {
     const json = await data.json();
     setResInfo(json.data);
   };
-
   return resInfo;
 };
+
 export default useRestaurantmenu;
