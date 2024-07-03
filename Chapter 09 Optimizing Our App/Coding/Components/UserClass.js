@@ -1,4 +1,5 @@
 import React from "react";
+import { GITHUB_API } from "../utils/constants";
 //Class based componenet
 class UserClass extends React.Component {
   constructor(props) {
