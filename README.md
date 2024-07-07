@@ -70,7 +70,7 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 
 ## ✨ Show your support
 
-Give a ⭐️ if this project helped you and try to contribute and share with people's
+Give a ⭐️ if this project helped you and try to contribute and share with your developers.
 
 ## 🔗 Let's Connect
 
