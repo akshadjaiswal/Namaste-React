@@ -1,10 +1,13 @@
 import { LOGO_URL } from "../utils/constants";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import useOnlineStatus from "../utils/useOlineStatus";
 
 const Header = () => {
   const [btnName, setBtnName] = useState("Login");
   // console.log("Header rendered");
+
+  const onlineStatus = useOnlineStatus();
 
   //no dependancy aary => useEffect is called on every render
   // dependency arrya => useEffect is called on only initial render
@@ -16,11 +19,14 @@ const Header = () => {
   return (
     <div className="header">
       <div className="logo-container">
-        <img className="logo" src={LOGO_URL} />
+        <Link to="/">
+          <img className="logo" src={LOGO_URL} />
+        </Link>
         <h3>FoodieMint</h3>
       </div>
       <div className="nav-items">
         <ul>
+          <li>Online Status:{onlineStatus ? "✅" : "⛔"}</li>
           <li>
             <Link to="/">Home</Link>
           </li>
