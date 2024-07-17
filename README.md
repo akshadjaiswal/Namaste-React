@@ -62,6 +62,12 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2009%20Optimizing%20Our%20App/Coding)
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2009%20Optimizing%20Our%20App/Theory)
 - 📖 [_Assignment_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2009%20Optimizing%20Our%20App/Theory/Assignment.md)
+
+## 📚 [_Chapter 10 Jo Dikhta Hai Vh Bikta Hai_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2010%20Jo%20Dikhta%20Hai%2C%20Vh%20Bikta%20Hai)
+
+- 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2010%20Jo%20Dikhta%20Hai%2C%20Vh%20Bikta%20Hai/Coding)
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2010%20Jo%20Dikhta%20Hai%2C%20Vh%20Bikta%20Hai/Theory)
+- 📖 [_Assignment_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2010%20Jo%20Dikhta%20Hai%2C%20Vh%20Bikta%20Hai/Theory)
   
 ## 🤝 Contribution Guidelines
 
