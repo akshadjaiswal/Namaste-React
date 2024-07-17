@@ -54,16 +54,17 @@ const Body = () => {
   ) : (
     <div className="body">
       <div className="filter">
-        <div className="Search">
+        <div className="Search m-4 p-4">
           <input
             type="text"
-            className="Search-box"
+            className="border border-solid border-black  "
             value={searchText}
             onChange={(e) => {
               setSearchText(e.target.value);
             }}
           />
           <button
+            className="px-3  bg-orange-400 m-3"
             onClick={() => {
               const filteredRestaurant = listOfRestaurants.filter((res) =>
                 res.info.name.toLowerCase().includes(searchText.toLowerCase())
