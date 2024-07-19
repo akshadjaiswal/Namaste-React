@@ -20,7 +20,7 @@ const Header = () => {
   }, [btnName]);
 
   return (
-    <div className="flex justify-between  bg-orange-300  ">
+    <div className="flex justify-between bg-slate-400 rounded-md   ">
       <div className="flex bg-white">
         <Link to="/">
           <img className="w-60 " src={LOGO_URL} />
@@ -46,14 +46,18 @@ const Header = () => {
           <li className="px-4">
             <Link to="/cart">Cart</Link>
           </li>
-          <button
-            className=" px-4"
-            onClick={() => {
-              btnName === "Login" ? setBtnName("Logout") : setBtnName("Login");
-            }}
-          >
-            {btnName}
-          </button>
+          <li>
+            <button
+              className=" px-4"
+              onClick={() => {
+                btnName === "Login"
+                  ? setBtnName("Logout")
+                  : setBtnName("Login");
+              }}
+            >
+              {btnName}
+            </button>
+          </li>
         </ul>
       </div>
     </div>
