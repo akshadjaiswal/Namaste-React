@@ -64,7 +64,7 @@ const Body = () => {
             }}
           />
           <button
-            className="px-4 py-1 bg-orange-400 m-3 rounded-lg"
+            className="px-4 py-1 bg-orange-400 m-3 rounded-lg hover:bg-orange-600"
             onClick={() => {
               const filteredRestaurant = listOfRestaurants.filter((res) =>
                 res.info.name.toLowerCase().includes(searchText.toLowerCase())
@@ -77,7 +77,7 @@ const Body = () => {
         </div>
         <div className="Search m-4 p-4 flex items-center">
           <button
-            className="px-4 py-1 bg-gray-300 rounded-lg"
+            className="px-4 py-1 bg-gray-300 rounded-lg hover:bg-gray-500"
             onClick={() => {
               //filter logic
               const filteredList = listOfRestaurants.filter(
