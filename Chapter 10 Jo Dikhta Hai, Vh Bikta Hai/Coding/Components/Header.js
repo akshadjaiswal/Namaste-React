@@ -20,7 +20,7 @@ const Header = () => {
   }, [btnName]);
 
   return (
-    <div className="flex justify-between bg-slate-400 rounded-md   ">
+    <div className="flex justify-between bg-slate-400  shadow-lg rounded-md sm:bg-yellow-50 lg:bg-green-50  ">
       <div className="flex bg-white">
         <Link to="/">
           <img className="w-60 " src={LOGO_URL} />
@@ -29,7 +29,9 @@ const Header = () => {
       </div>
       <div className="flex items-center ">
         <ul className="flex p-9 m-9  ">
-          <li className="px-4 py-4">Online Status:{onlineStatus ? "✅" : "⛔"}</li>
+          <li className="px-4 py-4">
+            Online Status:{onlineStatus ? "✅" : "⛔"}
+          </li>
           <li className="px-4 hover:bg-slate-50 py-4 rounded-xl">
             <Link to="/">Home</Link>
           </li>

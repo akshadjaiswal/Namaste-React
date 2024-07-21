@@ -13,7 +13,7 @@ class About extends React.Component {
   render() {
     // console.log("Parent Component");
     return (
-      <div className="About-div">
+      <div className="About-div justify-center">
         <h1>About Team</h1>
         <UserClass name={"Akshad"} location={"Pune"} />
       </div>
