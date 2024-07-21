@@ -34,7 +34,7 @@ class UserClass extends React.Component {
     // const { count } = this.state;
     // console.log(this.props.name + "Child Component ");
     return (
-      <div className=" m-4 p-4 bg-green-300 rounded-md border border-solid to-black">
+      <div className=" m-4 p-4 bg-green-200 rounded-md border border-solid to-black">
         <h2>Member </h2>
         <div className="logo-container">
           <img className="logo" src={avatar_url} />
