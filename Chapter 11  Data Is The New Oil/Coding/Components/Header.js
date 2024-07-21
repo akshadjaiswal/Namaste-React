@@ -30,7 +30,7 @@ const Header = () => {
       <div className="flex items-center ">
         <ul className="flex p-9 m-9  ">
           <li className="px-4 py-4">
-            Status:{onlineStatus ? "✅" : "⛔"}
+            Online Status:{onlineStatus ? "✅" : "⛔"}
           </li>
           <li className="px-4 hover:bg-slate-50 py-4 rounded-xl">
             <Link to="/">Home</Link>
