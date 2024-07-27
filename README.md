@@ -69,6 +69,12 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2010%20Jo%20Dikhta%20Hai%2C%20Vh%20Bikta%20Hai/Theory)
 - 📖 [_Assignment_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2010%20Jo%20Dikhta%20Hai%2C%20Vh%20Bikta%20Hai/Theory)
   
+## 📚 [_Chapter 11 Data is a new Oil_]()
+
+- 💻 [_Coding_]()
+- 📖 [_Theory_]()
+- 📖 [_Assignment_]()
+  
 ## 🤝 Contribution Guidelines
 
 - Please create an issue with your suggestion.
