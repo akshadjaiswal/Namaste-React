@@ -20,8 +20,8 @@ const Header = () => {
   }, [btnName]);
 
   return (
-    <div className="flex justify-between bg-slate-400  shadow-lg rounded-md sm:bg-yellow-50 lg:bg-green-50  ">
-      <div className="flex bg-white">
+    <div className="flex justify-between bg-slate-400  shadow-lg rounded-md sm:bg-yellow-50 lg:bg-green-50 font-mono">
+      <div className="flex bg-white  ">
         <Link to="/">
           <img className="w-60 " src={LOGO_URL} />
           <h3 className="ml-20">FoodieMint</h3>
