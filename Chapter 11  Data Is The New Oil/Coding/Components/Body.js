@@ -11,7 +11,7 @@ const Body = () => {
   const [searchText, setSearchText] = useState("");
   const RestaurantCardIsOpen = withOpenLabel(RestaurantCard);
 
-  console.log(listOfRestaurants);
+  // console.log(listOfRestaurants);
   useEffect(() => {
     fetchData();
   }, []);
@@ -92,7 +92,7 @@ const Body = () => {
           </button>
         </div>
       </div>
-      <div className="flex flex-wrap items-center ">
+      <div className="flex flex-wrap justify-center ">
         {filteredRestaurant.map((restaurant) => (
           <Link
             key={restaurant?.info?.id}

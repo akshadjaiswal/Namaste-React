@@ -1,18 +1,20 @@
 const Footer = () => {
   return (
     <footer>
-      <div className="footer">
+      <div className="footer text-center mt-24 ">
         <p>
-          Created by{" "}
-          <a href="https://akshadjaiswal-website.netlify.app/" target="_blank">
-            Akshad
-          </a>{" "}
+          <a
+            className="cursor-pointer "
+            href="https://akshadjaiswal-website.netlify.app/"
+            target="_blank"
+          >
+            Created by Akshad
+          </a>
         </p>
         <p>
-          {" "}
           <a href="https://bio.link/akshad_jaiswal" target="_blank">
             Connect with me
-          </a>{" "}
+          </a>
         </p>
       </div>
     </footer>
