@@ -4,7 +4,7 @@
 
 ## [Created a FoodieMint🍥✌️ App from scratch using Functional Component](https://foodiemint.netlify.app/)  
 
-## 🎨 Contents
+## 🎨 Contents:
 
 This repository contains a `Collection of Assignments & Class Notes`, which help you understand the concepts of React.js.
 
