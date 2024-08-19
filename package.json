@@ -1,7 +1,7 @@
 {
   "name": "namaste-react",
   "version": "1.0.0",
-  "description": "Namaste React cousre coding and practice repository",
+  "description": "Namaste React cousre coding and practice repository and projects",
   "scripts": {
     "start": "parcel Index.html",
     "build": "parcel build Index.html",
