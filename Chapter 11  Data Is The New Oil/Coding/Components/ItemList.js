@@ -1,7 +1,7 @@
 import { CDN_URL } from "../utils/constants";
 
 const ItemList = ({ items }) => {
-  console.log(items);
+  // console.log(items);
   return (
     <div>
       <ul>
@@ -11,9 +11,9 @@ const ItemList = ({ items }) => {
             className="p-2 m-2 border-gray-200 border-b-2 text-left flex justify-between"
           >
             <div className="w-9/12">
-              <div classN ame="py-3">
+              <div className="py-3">
                 <span className="text-lg font-bold">{item.card.info.name}</span>
-                <span> - ₹{item.card.info.price / 100}</span>
+                <span> - ₹{item.card.info.price / 100 || item.card.info.defaultPrice / 100}</span>
               </div>
               <p className="text-[15px]">{item.card.info.description}</p>
             </div>
