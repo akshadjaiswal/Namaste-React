@@ -8,6 +8,7 @@ const RestaurantMenu = () => {
   const { resId } = useParams();
   const resInfo = useRestaurantmenu(resId);
   const [showIndex, setShowIndex] = useState();
+  const dummy="Passing data from higher node to leaf"
 
   if (resInfo === null) return <Shimmer />;
 
@@ -38,6 +39,7 @@ const RestaurantMenu = () => {
           data={category?.card?.card}
           showItems={index == showIndex ? true : false}
           setShowIndex={() => setShowIndex(index)}
+          dummy={dummy}
           
         />
       ))}
