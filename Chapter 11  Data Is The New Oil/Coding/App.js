@@ -21,16 +21,17 @@ import userContext from "./utils/userContext";
 
 const Grocery = lazy(() => import("./Components/Grocery"));
 
+
 const AppLayout = () => {
   const [userName, setUserName] = useState();
   useEffect(() => {
     const data = {
-      name: "Akshad Jaiswal",
+      name: userName,
     };
     setUserName(data.name);
   });
   return (
-    <userContext.Provider value={{ loggedInUser: userName }}>
+    <userContext.Provider value={{ loggedInUser: userName, setUserName }}>
       <div className="font-serif">
         <Header />
         <Outlet />

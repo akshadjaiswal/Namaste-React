@@ -1,8 +1,9 @@
 import RestaurantCard, { withOpenLabel } from "./RestaurantCard";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOlineStatus";
+import userContext from "../utils/userContext";
 
 const Body = () => {
   //State variable - Super powerfull variable
@@ -45,6 +46,7 @@ const Body = () => {
         <h1>Looks like you are offline! Also check your internet connection</h1>
       </div>
     );
+  const { loggedInUser, setUserName } = useContext(userContext);
   //Conditional Rendering
   // if (listOfRestaurants.length === 0) {
   //   return <Shimmer />;
@@ -91,6 +93,18 @@ const Body = () => {
             Top Rated Restaurants
           </button>
         </div>
+        <div className="Search m-4 p-4 flex items-center">
+          <lable className="px-4 py-1 bg-green-600 m-3 rounded-lg">
+            Username
+          </lable>
+          <input
+            className="border border-black"
+            value={loggedInUser}
+            onChange={(e) => {
+              setUserName(e.target.value);
+            }}
+          />
+        </div>
       </div>
       <div className="flex flex-wrap justify-center ">
         {filteredRestaurant.map((restaurant) => (
@@ -98,11 +112,10 @@ const Body = () => {
             key={restaurant?.info?.id}
             to={"/restaurants/" + restaurant?.info?.id}
           >
-            {restaurant.info.isOpen?(
-              <RestaurantCardIsOpen resData={restaurant}/> 
-            ):(
+            {restaurant.info.isOpen ? (
+              <RestaurantCardIsOpen resData={restaurant} />
+            ) : (
               <RestaurantCard resData={restaurant} />
-
             )}
           </Link>
         ))}
