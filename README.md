@@ -5,7 +5,8 @@
 ## [Created a FoodieMint🍥✌️ App from scratch using Functional Component and React Powers](https://foodiemint.netlify.app/) 
 
  <p align=center>
-    <img width = "600px" alt="Jio Network blocking the view? Network switch reveals the magic!" src='z_assets/Home.png'>
+    <img width = "800px" alt="Jio Network blocking the view? Network switch reveals the magic!" src='z_assets/Home.png'>
+    <img width = "800px" alt="Jio Network blocking the view? Network switch reveals the magic!" src='z_assets/Restaurant.png'>
   <p>
 
 ## 🎨 Contents:
