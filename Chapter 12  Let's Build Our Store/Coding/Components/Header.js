@@ -30,7 +30,6 @@ const Header = () => {
             <Link to="/">Home</Link>
           </li>
           <li className="px-4 hover:bg-slate-50 py-4 rounded-xl">
-            {" "}
             <Link to="/about">About</Link>
           </li>
           <li className="px-4 hover:bg-slate-50 py-4 rounded-xl">
