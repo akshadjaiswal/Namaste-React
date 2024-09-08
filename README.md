@@ -2,7 +2,11 @@
 
 ## _[Namaste React Course](https://learn.namastedev.com/courses/namaste-react-live) from Zero to Hero 🚀 by [Akshay Saini](https://www.linkedin.com/in/akshaymarch7/) Founder of [NamasteDev](https://courses.namastedev.com/learn/Namaste-React).This repository for Assignment & Class Notes taken during this First Live course._
 
-## [Created a FoodieMint🍥✌️ App from scratch using Functional Component and React Powers](https://foodiemint.netlify.app/)  
+## [Created a FoodieMint🍥✌️ App from scratch using Functional Component and React Powers](https://foodiemint.netlify.app/) 
+
+ <p align=center>
+    <img width = "600px" alt="Jio Network blocking the view? Network switch reveals the magic!" src='z_assets/Home.png'>
+  <p>
 
 ## 🎨 Contents:
 
