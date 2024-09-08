@@ -74,6 +74,12 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2011%20%20Data%20Is%20The%20New%20Oil/Coding)
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2011%20%20Data%20Is%20The%20New%20Oil/Theory)
 - 📖 [_Assignment_](https://github.com/akshadjaiswal/Namaste-React/blob/main/Chapter%2011%20%20Data%20Is%20The%20New%20Oil/Theory/Assignment.md)
+
+## 📚 [_Chapter 12 Let's Build Our Store_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2012%20%20Let's%20Build%20Our%20Store)
+
+- 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2012%20%20Let's%20Build%20Our%20Store/Coding)
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/blob/main/Chapter%2012%20%20Let's%20Build%20Our%20Store/Theory)
+- 📖 [_Assignment_](https://github.com/akshadjaiswal/Namaste-React/blob/main/Chapter%2012%20%20Let's%20Build%20Our%20Store/Theory/Assignment.md)
   
 ## 🤝 Contribution Guidelines
 
