@@ -10,6 +10,8 @@ import Error from "./Components/Error";
 import RestaurantMenu from "./Components/RestaurantMenu";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import userContext from "./utils/userContext";
+import { Provider } from "react-redux";
+import appStore from "./utils/appStore";
 // import Grocery from "./Components/Grocery";
 
 //chunking
@@ -31,13 +33,15 @@ const AppLayout = () => {
     setUserName(data.name);
   });
   return (
-    <userContext.Provider value={{ loggedInUser: userName, setUserName }}>
-      <div className="font-serif">
-        <Header />
-        <Outlet />
-        <Footer />
-      </div>
-    </userContext.Provider>
+    <Provider store={appStore}>
+      <userContext.Provider value={{ loggedInUser: userName, setUserName }}>
+        <div className="font-serif">
+          <Header />
+          <Outlet />
+          <Footer />
+        </div>
+      </userContext.Provider>
+    </Provider>
   );
 };
 
