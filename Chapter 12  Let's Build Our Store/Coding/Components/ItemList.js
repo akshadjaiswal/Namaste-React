@@ -1,6 +1,16 @@
+import { useDispatch } from "react-redux";
 import { CDN_URL } from "../utils/constants";
+import { addItem } from "../utils/cartSlice";
 
 const ItemList = ({ items, dummy }) => {
+  // console.log(items)
+  const dispatch = useDispatch();
+
+  const handleAddItem = (item) => {
+    //Dispatch the action
+    dispatch(addItem(item));
+  };
+ 
   return (
     <div>
       <ul>
@@ -23,7 +33,10 @@ const ItemList = ({ items, dummy }) => {
             </div>
             <div className="w-4/12 p-2 ">
               <div className=" absolute">
-                <button className="p-2 shadow-lg bg-white mx-16 rounded-lg">
+                <button
+                  className="p-2 shadow-lg bg-white mx-16 rounded-lg"
+                  onClick={() => handleAddItem(item)}
+                >
                   Add +
                 </button>
               </div>

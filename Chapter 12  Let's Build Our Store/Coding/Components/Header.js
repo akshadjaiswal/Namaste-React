@@ -10,7 +10,9 @@ const Header = () => {
   const [btnName, setBtnName] = useState("Login");
   const onlineStatus = useOnlineStatus();
   const { loggedInUser } = useContext(userContext);
+  //Subscribing to the slice using selector
   const cartItems = useSelector((store) => store.cart.items)
+  console.log(cartItems)
 
   //no dependancy aaray => useEffect is called on every render
   // dependency array => useEffect is called on only initial render
