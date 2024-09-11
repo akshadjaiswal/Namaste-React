@@ -3,18 +3,21 @@ import { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOlineStatus";
 import userContext from "../utils/userContext";
+import { useSelector } from "react-redux";
+
 
 const Header = () => {
   const [btnName, setBtnName] = useState("Login");
   const onlineStatus = useOnlineStatus();
   const { loggedInUser } = useContext(userContext);
+  const cartItems = useSelector((store) => store.cart.items)
 
   //no dependancy aaray => useEffect is called on every render
   // dependency array => useEffect is called on only initial render
   // if dependency is [btnName]=> useEffect is called every time btnName updated
 
   return (
-    <div className="flex justify-between bg-slate-400  shadow-lg rounded-md sm:bg-yellow-50 lg:bg-green-50 font-mono">
+    <div className="flex justify-between  shadow-lg rounded-md sm:bg-yellow-50 lg:bg-green-50 font-mono">
       <div className="flex bg-white  ">
         <Link to="/">
           <img className="w-60 " src={LOGO_URL} />
@@ -38,8 +41,8 @@ const Header = () => {
           <li className="px-4 hover:bg-slate-50 py-4 rounded-xl">
             <Link to="/grocery">Grocery</Link>
           </li>
-          <li className="px-4 hover:bg-slate-50 py-4 rounded-xl">
-            <Link to="/cart">Cart</Link>
+          <li className="px-4 hover:bg-slate-50 py-4 rounded-xl font-bold text-xl">
+            <Link to="/cart"><span>🛒({cartItems.length}🥢)</span></Link>
           </li>
           <li>
             <button
