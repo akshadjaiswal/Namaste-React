@@ -6,7 +6,7 @@ const Cart = () => {
   const cartItems = useSelector((store) => store.cart.items)
   const dispatch = useDispatch();
   const handleClearCart = () => {
-    dispatch(clearCart)
+    dispatch(clearCart())
 
   }
 
@@ -17,6 +17,7 @@ const Cart = () => {
         <button className="p-2 m-2 bg-black text-white rounded-xl text-sm"
           onClick={handleClearCart}
         >Clear Cart</button>
+        {cartItems.length == 0 && <h1>Cart is Empty</h1>}
         <ItemList items={cartItems} />
       </div>
     </div>
