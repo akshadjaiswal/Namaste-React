@@ -4,6 +4,8 @@
 
 ## [Created a FoodieMint🍥✌️ App from scratch using Functional Component and React Powers](https://github.com/akshadjaiswal/FoodieMint) 
 
+###  FoodieMint -
+
  <p align=center>
     <img width = "800px" alt="Jio Network blocking the view? Network switch reveals the magic!" src='z_assets/Home.png'>
     <img width = "800px" alt="Jio Network blocking the view? Network switch reveals the magic!" src='z_assets/Restaurant.png'>
