@@ -94,9 +94,9 @@ const Body = () => {
           </button>
         </div>
         <div className="Search m-4 p-4 flex items-center">
-          <lable className="px-4 py-1 bg-green-600 m-3 rounded-lg">
+          <label className="px-4 py-1 bg-green-600 m-3 rounded-lg">
             Username
-          </lable>
+          </label>
           <input
             className="border border-black"
             value={loggedInUser}
