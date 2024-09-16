@@ -6,3 +6,9 @@
     - Unit Testing
     - Integration testing
     - End to End testing - e2e testing
+
+## Setting Up testing in our app
+- Install React Testing Library
+- Install Jest
+- Install Babel Dependencies
+- Configure JEST
