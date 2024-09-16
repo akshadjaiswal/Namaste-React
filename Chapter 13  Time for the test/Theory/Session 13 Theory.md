@@ -11,4 +11,7 @@
 - Install React Testing Library
 - Install Jest
 - Install Babel Dependencies
-- Configure JEST
+- Configure Babel
+- Configure Parcel Config file and disable default babel transpilation
+- Configure JEST jest --init
+- Installed JSDOM Library 
