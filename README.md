@@ -88,6 +88,12 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/blob/main/Chapter%2012%20%20Let's%20Build%20Our%20Store/Theory)
 - 📖 [_Assignment_](https://github.com/akshadjaiswal/Namaste-React/blob/main/Chapter%2012%20%20Let's%20Build%20Our%20Store/Theory/Assignment.md)
   
+## 📚 [_Chapter 12 Let's Build Our Store_]()
+
+- 💻 [_Coding_]()
+- 📖 [_Theory_]()
+- 📖 [_Assignment_]()
+
 ## 🤝 Contribution Guidelines
 
 - Please create an issue with your suggestion.
