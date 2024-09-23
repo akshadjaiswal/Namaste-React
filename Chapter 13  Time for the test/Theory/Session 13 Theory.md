@@ -15,3 +15,4 @@
 - Configure Parcel Config file and disable default babel transpilation
 - Configure JEST jest --init
 - Installed JSDOM Library 
+- Testing jest
