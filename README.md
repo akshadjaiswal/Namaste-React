@@ -99,6 +99,16 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 - Please create an issue with your suggestion.
 - If you have notes of your own, and are interested in contributing to this repo, hit a PR ! I'll review it and add it immediately 🤓.
 
+--- 
+## More Learning Resources
+
+Explore my additional repositories to deepen your understanding of related topics in the JavaScript ecosystem:
+
+- [Namaste NodeJS](https://github.com/akshadjaiswal/Namaste-Nodejs): A repository focused on learning Node.js concepts, from basics to advanced server-side programming.
+- [Namaste Javascript](https://github.com/akshadjaiswal/Namaste-Javascript): A repository dedicated to mastering Javascript, covering foundational and advanced aspects of building interactive UIs.
+
+---
+
 ## ✨ Show your support :
 
 Give a ⭐️ if this project helped you and try to contribute and share with your developers.
