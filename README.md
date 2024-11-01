@@ -88,11 +88,11 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/blob/main/Chapter%2012%20%20Let's%20Build%20Our%20Store/Theory)
 - 📖 [_Assignment_](https://github.com/akshadjaiswal/Namaste-React/blob/main/Chapter%2012%20%20Let's%20Build%20Our%20Store/Theory/Assignment.md)
   
-## 📚 [_Chapter 13 Time to Test your App_]()
+## 📚 [_Chapter 13 Time to Test your App_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2013%20%20Time%20for%20the%20test)
 
-- 💻 [_Coding_]()
-- 📖 [_Theory_]()
-- 📖 [_Assignment_]()
+- 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-React/tree/main/Chapter%2013%20%20Time%20for%20the%20test/Coding)
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-React/blob/main/Chapter%2013%20%20Time%20for%20the%20test/Theory/Session%2013%20Theory.md)
+- 📖 [_Assignment_](https://github.com/akshadjaiswal/Namaste-React/blob/main/Chapter%2013%20%20Time%20for%20the%20test/Theory/Assignment.md)
 
 ## 🤝 Contribution Guidelines
 
