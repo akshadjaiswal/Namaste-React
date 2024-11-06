@@ -100,6 +100,7 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 - If you have notes of your own, and are interested in contributing to this repo, hit a PR ! I'll review it and add it immediately 🤓.
 
 --- 
+
 ## More Learning Resources
 
 Explore my additional repositories to deepen your understanding of related topics in the JavaScript ecosystem:
