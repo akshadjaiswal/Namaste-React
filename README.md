@@ -1,11 +1,9 @@
 # Namaste React 🙏
-
 ## _[Namaste React Course](https://learn.namastedev.com/courses/namaste-react-live) from Zero to Hero 🚀 by [Akshay Saini](https://www.linkedin.com/in/akshaymarch7/) Founder of [NamasteDev](https://courses.namastedev.com/learn/Namaste-React).This repository for Assignment & Class Notes taken during this course._
 
 ## [Created a FoodieMint🍥✌️ App from scratch using React and Tailwind ](https://github.com/akshadjaiswal/FoodieMint) 
 
-###  FoodieMint -
-
+## FoodieMint:
  <p align=center>
     <img width = "800px" alt="Jio Network blocking the view? Network switch reveals the magic!" src='z_assets/Home.png'>
     <img width = "800px" alt="Jio Network blocking the view? Network switch reveals the magic!" src='z_assets/Restaurant.png'>
@@ -100,7 +98,6 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 - If you have notes of your own, and are interested in contributing to this repo, hit a PR ! I'll review it and add it immediately 🤓.
 
 --- 
-
 ## More Learning Resources
 
 Explore my additional repositories to deepen your understanding of related topics in the JavaScript ecosystem:
@@ -109,7 +106,6 @@ Explore my additional repositories to deepen your understanding of related topic
 - [Namaste Javascript](https://github.com/akshadjaiswal/Namaste-Javascript): A repository dedicated to mastering Javascript, covering foundational and advanced aspects of building interactive UIs.
 
 ---
-
 ## ✨ Show your support :
 
 Give a ⭐️ if this project helped you and try to contribute and share with your developers.
