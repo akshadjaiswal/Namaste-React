@@ -1,5 +1,4 @@
 # Namaste React
-
 ## Topics Covered
 - Types of Testing (Developer Side Testing)
     - Manual Testing
