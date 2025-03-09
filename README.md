@@ -9,6 +9,12 @@
     <img width = "800px" alt="Jio Network blocking the view? Network switch reveals the magic!" src='z_assets/Restaurant.png'>
   <p>
 
+## My React Projects
+
+- HireMint 
+- FoodieMint 
+- DevTinder (MERN Stack)
+
 ## 🎨 Contents:
 
 This repository contains a `Collection of Assignments & Class Notes`, which help you understand the concepts of React.js.
